@@ -1,0 +1,23 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<permissions>
+
+
+    <!-- Jialin.Pi@Apps.Settings 2017/09/07, feature only not use in 17071 and 17371 in MTK6767 -->
+    <!--<feature name="oppo.breath.light.support" />-->
+    <!-- Lan.Wang@plf.Framework, 2017/07/12, Add multi app feature -->
+    <feature name="oppo.multiapp.support" />
+    <!-- Fangfang.Hui@PSW.AD.FaceRecognition.1070880, 2017/10/28, Add for Face recognition support -->
+    <feature name="oppo.hardware.face.support" />
+
+
+    <!-- Yizhang.Peng@PSW.AD.OppoFeature.FusionLight.1535903, 2019/02/20, Add for light function -->
+    <feature name="oppo.sensor.fusionlight.support" />
+    <!-- Wenyi.Wang@ANDRID.SENSOR OplusFeature.GeminiProximity.1319617, 2018/05/21, Add for Tp Proximity -->
+    <feature name="oplus.proximity.tp.support" />
+	<!-- Yalong.Wang@Apps.SpeechAssist 2019/03/28, feature used for disable incoming call voice control -->
+    <feature name="oppo.incomingcall.voicecontrol.shield" />
+    <!-- Add for tp limit support -->
+    <feature name="oppo.tp.limit.support" />
+    <!-- Xing.Xiong@EXP.TP.Funtion, 2017/07/17, Add for blackgesture -->
+    <feature name="oppo.lcd.first.tp.last.support"/>
+</permissions>

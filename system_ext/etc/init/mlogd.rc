@@ -1,0 +1,21 @@
+#Add for copy preversion cache log
+on property:persist.sys.log.cache=true && property:persist.sys.oplus.minilog.enable=true
+   start mlogd
+
+on property:persist.sys.log.cache=false && property:persist.sys.oplus.minilog.enable=true
+   stop mlogd
+
+on property:persist.sys.alwayson.enable=true
+   start mlogd
+
+on property:persist.sys.alwayson.enable=false
+   stop mlogd
+
+service mlogd /system/system_ext/bin/mlogd
+    class main
+    user root
+    group system root shell
+    oneshot
+    disabled
+
+

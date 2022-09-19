@@ -1,0 +1,65 @@
+{
+  "comment"       : "editable description",
+  "version"       : 20220217,
+  "filter_content": [
+    {
+      "name": "gl_oom",
+      "tag" : ["com.tencent.tmgp.sgame", "com.instagram.android", "com.facebook.katana", "com.facebook.orca", "com.facebook.pages.app", "com.excean.gspace"],
+      "value" : ["128", null, null, null, null, null]
+    },
+    {
+      "name": "brk_s2w",
+      "tag" : [
+        "com.autonavi.minimap", "com.autonavi.amapauto", "cn.bus365.wyc.drivergd", "cn.hznetroute.AAdriver",
+        "com.eamobile.nbajam_na_wf", "com.tuotuo.driver", "com.keubano.zhdz", "com.jsyc.driver", "net.untrip.app.lczcd",
+        "com.CharmingAgencys.nearme.gamecenter", "com.frontline.DesertEscape.nearme.gamecenter", "com.zsfz.zsjmnjs.nearme.gamecenter",
+        "com.yx", "com.smile.gifmaker"
+      ]
+    },
+    {
+      "name": "ui_first_black",
+      "tag" : [
+        "com.icbc.im", "com.bill99.kuaiyishua", "com.andromeda.androbench2", "com.tencent.tmgp.sgame", "com.tencent.tmgp.pubgmhd"
+      ]
+    },
+    {
+      "name": "gl_thread_ux",
+      "tag" : [
+        "com.coloros.gallery3d", "com.autonavi.minimap", "com.google.android.apps.maps", "com.snapchat.android",
+        "com.tencent.mobileqq", "com.oppo.camera", "com.oplus.camera", "com.tencent.mm", "com.android.chrome",
+        "com.MobileTicket", "com.UCMobile", "com.UCMobile.intl", "com.baidu.BaiduMap", "com.smile.gifmaker", "com.tencent.qqlive"
+      ],
+      "value" : [
+        null, null, null, null, null, null, null, null, null,
+        "[{\"op\":\"ux\", \"pattern\":\"(^Chrome_InProcRe)|(^Chrome_InProcGp)|(^Compositor$)\", \"delay\":\"5000\"}]",
+        "[{\"op\":\"ux\", \"pattern\":\"(^CrRendererMain)|(^CompositorVizRe)|(^Compositor$)\", \"delay\":\"2000\", \"mode\":\"repeat\"}]",
+        "[{\"op\":\"ux\", \"pattern\":\"(^Chrome_InProcRe)|(^Chrome_InProcGp)|(^Compositor$)|(^CompositorVizRe)\", \"delay\":\"3000\"}]",
+        "[{\"op\":\"ux\", \"pattern\":\"(^map-runloop$)\"}]",
+        "[{\"op\":\"ux\", \"pattern\":\"(^GLThread \\\\d+$)\", \"event\":\"resume com.yxcorp.gifshow.v3.EditorActivity\", \"delay\":\"2500\"}]",
+        "[{\"op\":\"ux\", \"pattern\":\"(^Chrome_InProcRe)|(^Chrome_InProcGp)|(^Compositor$)\", \"event\":\"start com.tencent.qqlive.ona.browser.H5Activity\"}]"
+      ]
+    },
+    {
+      "name": "tpd",
+      "tag" : [
+        "com.baidu.searchbox","com.smile.gifmaker", "com.xunmeng.pinduoduo", "com.jingdong.app.mall", "com.taobao.taobao", "com.UCMobile", "com.heytap.browser"
+      ],
+      "value" : [
+        "[{\"op\":\"tpd 3\", \"pattern\":\"(^Chrome_InProcGp)\", \"event\":\"start_p\", \"delay\":\"1000\"}]",
+        "[{\"project\":\"21147\",\"op\":\"tpd 3\", \"pattern\":\"(^Pipeline_0)\", \"event\":\"start com.yxcorp.gifshow.camera.record.CameraActivity\", \"delay\":\"1000\"}]",
+        "[{\"project\":\"21127|21305\", \"op\":\"tpd 3\", \"pattern\":\"(^CrRendererMain)\", \"event\":\"resume com.xunmeng.pinduoduo.ui.activity.HomeActivity\", \"delay\":\"1000\"},
+          {\"project\":\"21127|21305\", \"op\":\"tpd 3\", \"pattern\":\"(^CrRendererMain)\", \"event\":\"resume com.xunmeng.pinduoduo.activity.NewPageActivity\", \"delay\":\"1000\"}]",
+        "[{\"project\":\"21127|21305\", \"op\":\"tpd 3\", \"pattern\":\"(^CrRendererMain)\", \"event\":\"resume com.jingdong.app.mall.MainFrameActivity\", \"delay\":\"1000\"}]",
+        "[{\"project\":\"21127|21305\", \"op\":\"tpd 3\", \"pattern\":\"(^CrRendererMain)\", \"event\":\"resume com.taobao.tao.TBMainActivity\", \"delay\":\"1000\"}]",
+        "[{\"project\":\"21127|21305\", \"op\":\"tpd 3\", \"pattern\":\"(^CrRendererMain)\", \"event\":\"resume com.uc.browser.InnerUCMobile\", \"delay\":\"1000\"}]",
+        "[{\"project\":\"21127|21305\", \"op\":\"tpd 3\", \"pattern\":\"(^CrRendererMain)\", \"event\":\"resume com.android.browser.BrowserActivity\", \"delay\":\"1000\"}]"
+      ]
+    },
+    {
+      "name": "scroll_black",
+      "tag" : [
+        "com.coloros.note"
+      ]
+    }
+  ]
+}

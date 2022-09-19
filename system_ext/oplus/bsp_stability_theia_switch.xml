@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>2021091002</version>
+    <isOpen>1</isOpen>
+    <filter-name>bsp_stability_theia_switch</filter-name>
+    <backKey>0</backKey>
+    <bootFailed>0</bootFailed>
+    <appNotResponding>0</appNotResponding>
+    <uiTimeout>1</uiTimeout>
+    <noFocusWindow>1</noFocusWindow>
+    <noFocusWindowToAnr enable="1">
+        <!-- NofocusAnr timeout, unit is ms -->
+        <NofocusAnrTimeout>12000</NofocusAnrTimeout>
+        <toAnrWhiteList>
+            <!-- whitelist, whole or part of package/activity name -->
+            <app name="keyguard" />
+            <app name="systemui" />
+            <app name="com.android.cts" />
+            <app name="launcher" />
+            <app name="MMIDialogActivity" />
+            <app name="com.qualtop.am" />
+            <app name="com.example.helloworld" />
+            <!-- <app name="com.oppotest.test1" /> -->
+        </toAnrWhiteList>
+    </noFocusWindowToAnr>
+    <uiTimeoutToKill enable="1">
+        <UITimeoutKillThreshold>10000</UITimeoutKillThreshold>
+        <uiTimeoutKillWhiteList>
+        <!-- whitelist -->
+        <utk_whitelist_app name="android.server.wm.app" />
+        <utk_whitelist_app name="android.camera.cts" />
+        <utk_whitelist_app name="android.media.cts" />
+        <utk_whitelist_app name="android.opengl.cts" />
+        <utk_whitelist_app name="com.facebook.katana" />
+        <!-- <utk_whitelist_app name="com.oplustest.test1" /> -->
+        </uiTimeoutKillWhiteList>
+    </uiTimeoutToKill>
+</filter-conf>

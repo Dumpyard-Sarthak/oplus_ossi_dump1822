@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<filter-conf>
+    <version>20211028</version>
+    <isOpen>1</isOpen>
+    <filter-name>sys_gyro_sensor_config</filter-name>
+    <GyroChange>
+        <App  name="com.tencent.tmgp.pubgmhd" />
+        <App  name="com.netease.mrzh.nearme.gamecenter" />
+        <App  name="com.netease.jddsaef.nearme.gamecenter" />
+        <App  name="com.netease.wxzc.nearme.gamecenter" />
+        <App  name="com.netease.hyxd.nearme.gamecenter" />
+        <App  name="dji.mimo" />
+    </GyroChange>
+    <AccChange>
+        <App name="com.tencent.tmgp.pubgmhd" />
+        <App name="com.netease.hyxd.nearme.gamecenter" />
+        <App name="dji.mimo" />
+        <App name="com.yunbu.motorider.nearme.gamecenter" />
+    </AccChange>
+</filter-conf>

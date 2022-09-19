@@ -1,0 +1,4 @@
+vendor/etc/camera/license.lic
+system_ext/priv-app/Settings/Settings.apk
+system_ext/priv-app/SystemUI/SystemUI.apk
+system_ext/apex/com.android.vndk.v30.apex

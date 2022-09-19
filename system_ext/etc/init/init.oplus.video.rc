@@ -1,0 +1,3 @@
+on property:debug.oplus.video.log.switch=On
+
+on property:debug.oplus.video.log.switch=Off

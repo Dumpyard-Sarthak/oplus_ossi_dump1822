@@ -1,0 +1,44 @@
+
+# InitEnv
+
+# Build.java
+ro.build.id=SP1A.210812.016
+ro.product.manufacturer=realme
+ro.product.brand=realme
+ro.product.model=RMX2151
+ro.product.name=RMX2151TR
+ro.product.device=RMX2151L1
+ro.product.first_api_level=29
+ro.board.first_api_level=30
+ro.build.version.incremental=Q.202207151224
+ro.build.version.release=12
+ro.build.fingerprint=realme/RMX2151TR/RMX2151L1:12/SP1A.210812.016/Q.202207151224:user/release-keys
+ro.odm.build.fingerprint=realme/RMX2151TR/RMX2151L1:12/SP1A.210812.016/Q.202207151224:user/release-keys
+ro.odm.build.version.incremental=Q.202207151224
+ro.product.odm.brand=realme
+ro.product.odm.manufacturer=realme
+ro.product.odm.model=RMX2151
+ro.product.odm.device=RMX2151L1
+ro.product.odm.name=RMX2151TR
+ro.odm.build.date=Fri Jul 15 12:33:47 CST 2022
+ro.odm.build.date.utc=1657859627
+ro.bootimage.build.fingerprint=realme/RMX2151TR/RMX2151L1:12/SP1A.210812.016/Q.202207151224:user/release-keys
+ro.bootimage.build.version.incremental=Q.202207151224
+ro.product.bootimage.brand=realme
+ro.product.bootimage.manufacturer=realme
+ro.product.bootimage.model=RMX2151
+ro.product.bootimage.device=RMX2151L1
+ro.product.bootimage.name=RMX2151TR
+ro.bootimage.build.date=Fri Jul 15 12:33:47 CST 2022
+ro.bootimage.build.date.utc=1657859627
+ro.vendor.build.fingerprint=realme/RMX2151TR/RMX2151L1:12/SP1A.210812.016/Q.202207151224:user/release-keys
+ro.vendor.build.version.incremental=Q.202207151224
+ro.product.vendor.brand=realme
+ro.product.vendor.manufacturer=realme
+ro.product.vendor.model=RMX2151
+ro.product.vendor.device=RMX2151L1
+ro.product.vendor.name=RMX2151TR
+ro.vendor.build.date=Fri Jul 15 12:33:47 CST 2022
+ro.vendor.build.date.utc=1657859627
+
+# OPPO

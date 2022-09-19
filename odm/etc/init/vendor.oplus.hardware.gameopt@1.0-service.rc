@@ -1,0 +1,8 @@
+service gameopt_hal_service-1-0 /odm/bin/hw/vendor.oplus.hardware.gameopt@1.0-service
+    class hal
+    user system
+    group system
+
+on property:sys.boot_completed=1
+    chmod 0660 /proc/game_opt/render_thread_info
+    chmod 0660 /proc/game_opt/rt_num
